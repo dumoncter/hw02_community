@@ -35,7 +35,6 @@ class Post(models.Model):
     """ Post model """
 
     text = models.TextField(
-        max_length=400,
         verbose_name='Текст',
     )
     pub_date = models.DateTimeField(
